@@ -1,4 +1,25 @@
-# -*- coding: utf-8 -*-
+"""
+COPYRIGHT NOTICE
+© 2026 Weiwei Li, Chenchen Wang. All Rights Reserved.
+
+Redistribution and use in source or binary forms, with or without
+modification, are strictly prohibited unless expressly permitted
+in writing by the copyright holder.
+
+DISCLAIMER:
+This code is provided "AS IS," without warranty of any kind, express or implied, including
+but not limited to the warranties of merchantability, fitness for a particular purpose, and
+non-infringement. In no event shall the copyright holder be liable for any claim, damages,
+or other liability, whether in an action of contract, tort, or otherwise, arising from, out
+of or in connection with the code or the use or other dealings in the code.
+--------------------------------------------------------------------------
+References：
+Chenchen Yang, Weiwei Li. A physics-informed radial basis network for acoustic scattering and radiation problems, submitted.
+--------------------------------------------------------------------------
+School of Transportation and Vehicle Engineering, Shandong University of Technology University
+E-mail: liww@sdut.edu.cn
+"""
+
 """Gaussian PIRBN for two-dimensional sound-soft circular-cylinder scattering."""
 
 import math
@@ -28,7 +49,7 @@ SHOW_INITIAL_POINT_LAYOUT = False
 INITIAL_LAYOUT_LEGEND_FONTSIZE = 12
 
 # Training and learning-rate schedule
-N_EPOCHS = 5000
+N_EPOCHS = 20000
 LEARNING_RATE = 0.005
 PRINT_EVERY = 500
 TRAINING_PROGRESS_ITERATIONS = (5000, 10000, 15000, 20000)
