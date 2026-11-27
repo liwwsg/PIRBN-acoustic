@@ -1,1 +1,2 @@
 # PIRBN-acoustic
+# Building upon the Physics-Informed Radial Basis Network (PIRBN) architecture, this study introduces a specialized methodology tailored for 2D Helmholtz problems, incorporating three key enhancements: a wavelength-based distribution of collocation points and radial basis function (RBF) centers, a mixed residual-based adaptive distribution (Mixed-RAD) strategy, and a Fourier series Dirichlet-to-Neumann (DtN) boundary condition implemented via a multi-circle weighted approach.
